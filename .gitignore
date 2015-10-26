@@ -1,0 +1,12 @@
+## NodeJs
+node_modules
+
+
+### JetBrains template
+*.iml
+
+## Directory-based project format:
+.idea/
+.tmp/
+
+*-bundled.js

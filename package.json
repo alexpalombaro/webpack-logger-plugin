@@ -1,0 +1,32 @@
+{
+  "name": "webpack-log-plugin",
+  "version": "1.0.0-alpha.1",
+  "description": "Log webpack build messages to a file or directory",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexpalombaro/webpack-logger-plugin.git"
+  },
+  "keywords": [
+    "webpack",
+    "log",
+    "logger",
+    "plugin"
+  ],
+  "author": "Alessandro Palombaro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexpalombaro/webpack-logger-plugin/issues"
+  },
+  "homepage": "https://github.com/alexpalombaro/webpack-logger-plugin#readme",
+  "dependencies": {
+    "webpack-core": "^0.6.7"
+  },
+  "devDependencies": {
+    "eslint": "^1.7.3",
+    "webpack": "^1.12.2"
+  }
+}
