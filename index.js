@@ -16,7 +16,7 @@ function WebpackLoggerPlugin(options) {
 WebpackLoggerPlugin.prototype.apply = function (compiler) {
   var self = this;
   compiler.plugin('done', function (stats) {
-    var filePath = path.resolve(__dirname, self.options.filename);
+    var filePath = path.resolve(process.cwd(), self.options.filename);
     var data = fs.existsSync(filePath) && self.options.append ? fs.readFileSync(filePath, 'utf8') : '';
     if (data.length) {
       data = data.concat('\n\n');
