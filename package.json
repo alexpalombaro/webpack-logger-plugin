@@ -1,8 +1,11 @@
 {
-  "name": "webpack-log-plugin",
+  "name": "webpack-logger-plugin",
   "version": "1.0.0-alpha.1",
   "description": "Log webpack build messages to a file or directory",
   "main": "index.js",
+  "files": [
+    "index.js"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -23,8 +26,7 @@
   },
   "homepage": "https://github.com/alexpalombaro/webpack-logger-plugin#readme",
   "dependencies": {
-    "object-assign": "^4.0.1",
-    "webpack-core": "^0.6.7"
+    "object-assign": "^4.0.1"
   },
   "devDependencies": {
     "eslint": "^1.7.3",
