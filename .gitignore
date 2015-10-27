@@ -1,12 +1,13 @@
 ## NodeJs
 node_modules
 
-
-### JetBrains template
+## jetbrains
 *.iml
 
-## Directory-based project format:
+## directories:
 .idea/
 .tmp/
 
+## output files
 *-bundled.js
+webpack.log

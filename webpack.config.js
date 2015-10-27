@@ -10,12 +10,6 @@ module.exports = {
   },
   plugins: [
     new webpack.optimize.UglifyJsPlugin(),
-    new WebpackLoggerPlugin({
-      compress: {
-        'unused': true,
-        'dead_code': true,
-        'drop_debugger':true
-      }
-    })
+    new WebpackLoggerPlugin()
   ]
 };
